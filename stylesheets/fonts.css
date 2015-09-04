@@ -1,0 +1,58 @@
+@font-face{
+    font-family: BrownStd;
+    src: url('../fonts/BrownStd/regular/BrownStd-Regular.eot');
+    src: url('../fonts/BrownStd/regular/BrownStd-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.svg#BrownStd') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: BrownStd;
+    src: url('../fonts/BrownStd/bold/BrownStd-Bold.eot');
+    src: url('../fonts/BrownStd/bold/BrownStd-Bold.ttf')  format('truetype'),
+         url('../fonts/BrownStd/bold/BrownStd-Bold.svg#BrownStd') format('svg');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: FortesquePro;
+    src: url('../fonts/FortesquePro/regular/fortesquepro-webfont.eot');
+    src: url('../fonts/FortesquePro/regular/fortesquepro-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/FortesquePro/regular/fortesquepro-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/FortesquePro/regular/fortesquepro-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/FortesquePro/regular/fortesquepro-webfont.svg#FortesquePro') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: FortesquePro;
+    src: url('../fonts/FortesquePro/bold/fortesquepro-bold-webfont.eot');
+    src: url('../fonts/FortesquePro/bold/fortesquepro-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/FortesquePro/bold/fortesquepro-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/FortesquePro/bold/fortesquepro-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/FortesquePro/bold/fortesquepro-bold-webfont.svg#FortesquePro') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: FortesquePro;
+    src: url('../fonts/FortesquePro/italic/fortesquepro-italic-webfont.eot');
+    src: url('../fonts/FortesquePro/italic/fortesquepro-italic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/FortesquePro/italic/fortesquepro-italic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/FortesquePro/italic/fortesquepro-italic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/FortesquePro/italic/fortesquepro-italic-webfont.svg#FortesquePro') format('svg'); /* Legacy iOS */
+    font-style: italic;
+}
+
+@font-face{
+    font-family: FortesquePro;
+    src: url('../fonts/FortesquePro/bold-italic/fortesquepro-bold-italic-webfont.eot');
+    src: url('../fonts/FortesquePro/bold-italic/fortesquepro-bold-italic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/FortesquePro/bold-italic/fortesquepro-bold-italic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/FortesquePro/bold-italic/fortesquepro-bold-italic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/FortesquePro/bold-italic/fortesquepro-bold-italic-webfont.svg#FortesquePro') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,95 @@
+/* Main layout style rules, non-media query specific. */
+
+.frame{
+    border: solid 1px #272727;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* Additional styling for grid layout, rows. */
+.row{
+    text-align: center;
+}
+
+.frame .row{
+    padding: 2em 0;
+}
+
+.description-short .row{
+    border-bottom: solid 1px #272727;
+    padding: 0 5px;
+    margin: 0, -5px;
+}
+
+a.button{
+    padding: 1em 3em;
+    margin: 1em auto;
+    text-align: center;
+    background: black;
+    color: white;
+    display: inline-block;
+}
+
+/* Colors and decorators for extended description sections */
+.details{
+    background-color: #F6EFE9;
+}
+
+.fit{
+    background-color: #FBFAF6;
+}
+
+.fit-details{
+    background-color: #ECEEED;
+}
+
+.underlined-title{
+    border-bottom: solid 1px #cecece;
+    display: inline-block;
+}
+
+.separator{
+    content: "&mdash";
+}
+
+/* Overrides to the vanilla bootstrap carousel theme.*/
+.carousel-indicators{ 
+    right: 10px;
+    left: auto;
+    width: auto;
+    text-align: right;
+}
+
+.carousel-indicators li{
+    border: solid 1px #272727
+}
+
+.carousel-indicators .active{
+    background-color: #272727;
+}
+
+.carousel-control{
+    color: #CECECE;
+}
+
+.carousel-control.left,.carousel-control.right{
+    background-image: none;
+}
+
+/* UI widget layouts */
+.scroll-top{
+    position: fixed;
+    right: 20px;
+    bottom: 30%;
+}
+
+.social-media-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+h2{
+    margin-bottom: 0px;
+}
