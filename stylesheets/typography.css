@@ -5,10 +5,6 @@ h2,h3{
     font-family: FortesquePro;
 }
 
-.details dl{
-    font-variant: small-caps;
-}
-
 h2{
     font-weight: bold;
 }
@@ -16,7 +12,7 @@ h2{
 .small-title{ /* Typeface for smaller titles and button text */
     font-family: BrownStd;
     font-weight: bold;
-    letter-spacing: .25em;
+    letter-spacing: .1em;
     font-variant: small-caps;
 }
 

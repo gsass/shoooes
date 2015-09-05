@@ -12,7 +12,11 @@
 }
 
 .frame .row{
+    /* TODO: make this overflow effect responsive.*/
+    position: relative;
+    margin: 0 -10%; /* gross but OK for now, wish calc() worked here*/
     padding: 2em 0;
+    z-index: -1;
 }
 
 .description-short .row{
@@ -49,11 +53,15 @@ a.button{
 }
 
 .separator{
-    content: "&mdash";
+    display: inline-block;
+}
+
+.separator:after{
+    content: "\2014";
 }
 
 /* Overrides to the vanilla bootstrap carousel theme.*/
-.carousel-indicators{ 
+.carousel-indicators{
     right: 10px;
     left: auto;
     width: auto;
@@ -74,6 +82,20 @@ a.button{
 
 .carousel-control.left,.carousel-control.right{
     background-image: none;
+}
+
+/* descriptive list styling */
+.details dd, dt{
+    display: inline;
+}
+
+.details dt:after{
+    content: ":";
+}
+
+.details dd:after{
+    content: "\A";
+    white-space: pre;
 }
 
 /* UI widget layouts */
