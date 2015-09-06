@@ -58,5 +58,3 @@
 ## Questions:
 - What support for modals does bootstrap provide?
     - How do I style to let them expand/float over other content while maintaining the same bottom y-coordinate?
-- Should I try using require() at first, or just load a gob of js to start?
-    - Probably the latter, for speed alone.
